@@ -4,11 +4,11 @@ var app=express();
 var port = Number(process.env.PORT || 8000);
 
 // Home page
-app.get(,function(req,res){
+app.get('/',function(req,res){
     res.send("Hello");
 });
 
 
 var server = http.createServer(app).listen(port, function() {
-console.("Listening on " + port);
+console.log("Listening on " + port);
 });
