@@ -3,7 +3,6 @@ var express=require('express');
 var app=express();
 var port = Number(process.env.PORT || 8000);
 
-// Home page
 app.get('/',function(req,res){
     res.send("Hello");
 });
